@@ -1,0 +1,64 @@
+/* Estilização do Conteúdo */
+.container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Cor de fundo branca com opacidade */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+/* Adicionar a borda e fundo estático */
+body {
+  background: url("https://wallpapers.com/images/hd/food-4k-1pf6px6ryqfjtnyr.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Estilização do Menu de Navegação */
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Efeito de Hover no Menu de Navegação */
+header nav ul li a:hover {
+  background-color: #cdccd6;
+}
+
+/* Tamanhos em px e % */
+#inicio {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Fonte Externa */
+body {
+  font-family: "Martian Mono", monospace;
+  font-weight: bold;
+}
